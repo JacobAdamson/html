@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <style>
+          body{background-color:lightgrey;}
+          h1{color:green}
+          p{color:blue;
+            border: thin solid black;
+            padding: 10px;
+            margin: 30px;
+          }
+          p#p01{
+            color: gray
+          }
+          p.supercool{
+            color: green;
+            border: thick solid yellow;
+          }
+
+          a:link{color:green; background-color:transparent}
+          a:visited{color:blue;background-color:transparent;text-decoration:underline}
+          a:hover   {color:red; background-color:transparent; text-decoration:underline}
+          a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+        </style>
+        <link rel = "stylesheet" href = "styles.css">
+        <title>my page</title>
+        <meta charset = "utf-8">
+
+    </head>
+
+    <!-- here I am writing a comment
+    honestly html right now seems pretty dumb
+    or at least - writing html from scratch seems like
+    a dated skill from 1995 that no one will ever use
+    again
+    -->
+
+    <body>
+        <h1 style = "
+            border: 1px solid black;
+            padding: 0 0 0 0;
+            font-weight:bold;"
+        ><i>Welcome</i></h1>
+        <h2><strong>We've been expecting you<strong></h2>
+        <p title = "paragraph?">
+          There is a paragraph here with a lot of text
+          <br>
+          <a href = #codesection>visit the code section</a>
+          <cite>(My ass,)</cite> That <ins>can</ins> be <sub>played</sub> <em>around</em> with it <del>should</del> be a good time
+
+          well that's life isn't it
+        </p>
+        <blockquote>I don't know where I put my pants</blockquote>
+        <hr>
+
+        <p id ="p01"> I am a new paragraph</p>
+
+        <p class = "supercool">This is some cool text</p>
+
+        <pre>
+here he is
+the main event
+larkin domench
+        </pre>
+
+         <a href = "https://www.facebook.com/larkin.domench?fref=ts" target = "_self">
+           <img src = "Larkin.png"
+           alt = "picture of Larkin looking really silly"
+           style = "height:400px;
+           float:right;
+           ">
+         </a>
+         <br>
+
+    </body>
+
+    <pre>
+    <code id = "codesection">
+      var x = 5;
+      var y = 6;
+      document.getElementById("my page").innerHTML = x + y
+    </code>
+    </pre>
+
+    <address>
+      Written by Jacob Adamson<br>
+      email-jadamson@colby.edu<br>
+      www.facebook.com then search my name<br>
+    </address>
+
+</html>
